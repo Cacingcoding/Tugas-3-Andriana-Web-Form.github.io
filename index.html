@@ -7,26 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="awal">
         <h3>INPUT DATA</h3>
         <p>
             CacingCoding
         </p>
-
         <form action="">
             <div class="row">
                 <label for="url">URL</label>
                 <input type="text" name="url" placeholder="https://google.com">
             </div>
-
             <div class="row">
-                <label for="namaProduk" aria-required="">Nama Barang</label>
+                <label for="namabarang" aria-required="">Nama barang</label>
                 <input type="text" placeholder="Tulis Nama Barang" required>
             </div>
+            </form>
 
-            <div class="rowkategori">
-                <label for="kategoriProduk">Jenis Barang</label>
-                <select name="kategori" id="jenisbarang">
+            <div class="rowbarang">
+                <label for="Jenis barang">Jenis Barang</label>
+                <select name="barang" id="barang">
                     <option value="">Pilih Opsi</option>
                     <option value="Celana">Celana</option>
                     <option value="Jaket">Jaket</option>
@@ -36,7 +35,7 @@
             </div>
 
             <div class="rowharga">
-                <label for="harga">Harga Barang</label>
+                <label for="Harga Barang">Harga Barang</label>
                 <input type="text" placeholder="Tulis Harga Barang">
                 <select name="harga" id="harga">
                     <option value="">Rp</option>
@@ -44,9 +43,9 @@
                 </select>
             </div>
 <!-- Kolom 2 -->
-            <div class="kolom2">
+            <div class="bagian2">
                 <div class="row1">
-                    <label for="beratProduk">Berat Barang</label>
+                    <label for="BeratBarang">Berat Barang</label>
                     <input type="number" placeholder="Berat">
                     <select name="berat" id="beratbarang">
                         <option value="Gram">Gram</option>
@@ -77,11 +76,11 @@
             <div class="label">Jumlah</div>
             <div class="rowbutton">
                 <button class="kiri" >
-                    <img src="./plus2.svg" alt="">
+                    <img src="./kode_plus2.svg" alt="">
                 </button>
                 <input type="text" value="1" name="jumlah">
                 <button class="kanan">
-                    <img src="./min.svg" alt="">
+                    <img src="./kode_min.svg" alt="">
                 </button>
             </div>
 
@@ -97,13 +96,13 @@
                 </select>
             </div>
             
-            <div class="rowUpload">
-                <label for="upload">
-                    <p></p> Upload Image <br> 
+            <div class="rowTambahkan">
+                <label for="Tambahkan">
+                    <p></p> Tambahkan Image <br> 
                     (Maks. 2.5 MB)</p>
-                    <img src="./plus2.svg" alt="">
+                    <img src="./kode_plus2.svg" alt="">
                 </label>
-                <input type="file" name="upload" id="upload">
+                <input type="file" name="Tambahkan" id="Tambahkan">
             </div>
 
             <div class="tombol">
@@ -117,6 +116,8 @@
             
         </form>
     </div>
-    
+    <footer>
+        <p>Copyright by : Cacingcoding 2020</p>
+        </footer>
 </body>
 </html>
