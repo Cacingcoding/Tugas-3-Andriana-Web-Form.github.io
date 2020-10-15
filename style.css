@@ -3,10 +3,9 @@
     font-family: 'Commissioner', sans-serif;
 }
 
-h3 {
-    text-align: center;
-    color: white;
-    font-size: 30px;
+body {
+    background-color: darkred;
+
 }
 
 .awal {
@@ -14,8 +13,10 @@ h3 {
     margin: 0 auto;
 }
 
-body {
-    background-color: darkred;
+h3 {
+    text-align : center;
+    color: white;
+    font-size: 30px;
 
 } 
 p {
